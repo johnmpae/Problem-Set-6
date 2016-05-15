@@ -15,7 +15,7 @@
 		<spring-framework.version>3.2.3.RELEASE</spring-framework.version>
 
 		<!-- Hibernate / JPA -->
-		<hibernate.version>4.2.1.Final</hibernate.version>
+		<hibernate.version>5.0.2.Final</hibernate.version>
 
 		<!-- Logging -->
 		<logback.version>1.0.13</logback.version>
@@ -75,10 +75,12 @@
 			<scope>test</scope>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>org.springframework.samples</groupId>
-			<artifactId>PS6_DAL</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>PS6</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>	

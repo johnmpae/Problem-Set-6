@@ -22,6 +22,7 @@ public class StudentDAL  {
 	/**
 	 * addStudent - Method adds a student to the database
 	 * @param stu
+	 * @return 
 	 * @return
 	 */
 	public static StudentDomainModel addStudent(StudentDomainModel stu) {
